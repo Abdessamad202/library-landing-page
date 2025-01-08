@@ -88,3 +88,7 @@ const dealsSwiper = new Swiper('.deals__swiper', {
     },
   },
 });
+window.scrollTo({
+  top: targetPosition,
+  behavior: 'smooth'
+});
